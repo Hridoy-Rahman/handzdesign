@@ -1,4 +1,4 @@
-import SharePost from "@/components/Blog/SharePost";
+
 import Image from "next/image";
 
 import { Metadata } from "next";
@@ -313,22 +313,6 @@ const ProductDetailsPage = () => {
                     dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                     mattis vulputate cupidatat.
                   </p>
-                  <div className="items-center justify-between sm:flex">
-                    <div className="mb-5">
-                      <h4 className="mb-3 text-sm font-medium text-body-color">
-                        Popular Tags :
-                      </h4>
-                      
-                    </div>
-                    <div className="mb-5">
-                      <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
-                        Share this post :
-                      </h5>
-                      <div className="flex items-center sm:justify-end">
-                        <SharePost />
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
